@@ -1,12 +1,12 @@
 * {
-  font-family: 'Nunito Sans';
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
 body {
   margin: 0 auto;
   padding: 3px;
-  background-color: #fff;
+  background-color: #581845;
 }
 
 .game-container {
