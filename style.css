@@ -1,5 +1,6 @@
 * {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #fff;
   box-sizing: border-box;
 }
 
@@ -77,7 +78,7 @@ header {
 }
 
 .computer-guess {
-  background-color: #ececec;
+  background-color: #4D153C;
 }
 
 #computer-guess {
@@ -88,6 +89,7 @@ header {
 
 .human-guess {
   border: 1px solid #979797;
+  background-color: #812365;
 }
 
 .guess input {
@@ -95,6 +97,7 @@ header {
   width: 90px;
   font-size: 30px;
   text-align: center;
+  background-color: #184558;
   margin: 0 auto;
   margin-bottom: 7px;
 }
@@ -105,18 +108,18 @@ header {
 }
 
 .number-control {
-  border: solid 1px #4c7ef3;
+  border: solid 1px #4D153C;
   display: inline-block;
   width: 45px;
   height: 35px;
   font-size: 24px;
   font-weight: 700;
-  color: #4c7ef3;
+  color: #184558;
   cursor: pointer;
 }
 
 .number-controls button[disabled] {
-  color: #dfdfdf;
+  color: #fff;
   cursor: default;
 }
 
@@ -137,7 +140,7 @@ header {
 }
 
 .button {
-  background-color: #4c7ef3;
+  background-color: #184558;
   color: #fff;
   cursor: pointer;
 }
@@ -166,19 +169,21 @@ input[type=number]::-webkit-inner-spin-button {
 }
   
 .button[disabled] {
-  background-color: #d2d2d2;
-  color: #a0a0a0;
+  background-color: #812365;
+  color: #fff;
   cursor: default;
 }
 
 .instructions {
   background-color: #ececec;
+  color: #4D153C;
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
 .instruction {
+  color: #812365;
   width: 180px;
   padding: 2px;
   text-align: center;
@@ -186,10 +191,14 @@ input[type=number]::-webkit-inner-spin-button {
 
 .instructions h3 {
   font-size: 14px;
+  color: #812365;
 }
 
+.instructions p {
+  color: #812365;
+}
 
 .winning-text, .winning-text[disabled] {
-  color: #ec3636;
+  color: #FFC300;
   font-weight: 700;
 }
